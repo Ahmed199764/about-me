@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://s3.amazonaws.com/noupe/2009/10/pattern-34.jpg);
+    text-align: center;
+}
+
+#title{
+    background-color:gold;
+    border: 2px solid brown;
+    border-radius: 25%;
+    width: 150px;
+    margin:auto;
+}
+
+.para1{
+    background-color:gold;
+    border: 2px solid brown;
+    border-radius: 25%;
+    width: 750px;
+    height: 150px;
+    padding-top:30px;
+    font-size: 20px;
+    margin:auto;
+    margin-top: 20px;
+}
+
+
