@@ -23,4 +23,35 @@ body{
     margin-top: 20px;
 }
 
+.list  {
+    text-align: left;
+    font-size: 20px;
+    background-color: gold;
+    display: inline-block;
+    border-radius: 25%;
+    width: 570px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border : 2px solid brown;
+    height: 400px;
+
+}
+
+.list1 {
+    text-align: left;
+    font-size: 20px;
+    background-color: gold;
+    display: inline-block;
+    border-radius: 25%;
+    width: 650px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border : 2px solid brown;
+    height: 400px;
+
+}
+
+#hwork{
+    text-align: center;
+}
 
