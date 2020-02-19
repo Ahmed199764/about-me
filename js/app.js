@@ -1,6 +1,6 @@
 'use strict';
 var point = 0;
-
+function q1(){
 var name = prompt('what is your name ?', 'Insert your name please');
 console.log('Name: ', name);
 alert('Greeting! Welcome ' + name);
@@ -24,8 +24,10 @@ switch (car.toLowerCase()) {
         console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
 }
+}
+q1();
 
-
+function q2() {
 var Country = prompt('Iam From jordan ?', 'please answer with yes or no');
 console.log('Country: ', Country);
 switch (Country.toLowerCase()) {
@@ -44,8 +46,9 @@ switch (Country.toLowerCase()) {
         console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
 }
-
-
+}
+q2();
+function q3(){
 var age = prompt('iam 20 year old ?', 'please answer with yes or no');
 console.log('age: ', age);
 switch (age.toLowerCase()) {
@@ -63,9 +66,10 @@ switch (age.toLowerCase()) {
     default:
         console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
-}
+} }
+q3();
 
-
+function q4 (){
 var food = prompt('Do i like food ?', 'please answer with yes or no');
 console.log('food: ', food);
 switch (food.toLowerCase()) {
@@ -83,9 +87,10 @@ switch (food.toLowerCase()) {
     default:
         console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
-}
+} }
+q4();
 
-
+function q5(){
 var color = prompt('black is my fav color ?', 'please answer with yes or no');
 console.log('color: ', color);
 switch (color.toLowerCase()) {
@@ -104,11 +109,12 @@ switch (color.toLowerCase()) {
     default:
         console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
-}
+} }
+q5();
 
 alert('now i will show you the correct answers :)');
 alert(`Here is the correct answers : i Like cars , Iam from jordan , iam 22 year old , i love food as well at then end my fav color is white`);
-
+function q6 (){
 alert('try to guess the number in my head ', 'please answer with a number');
 var counter = 0;
 while (counter < 4 && number !== 10) {
@@ -134,8 +140,9 @@ if (number === 10) {
     console.log(number);
 }
 
-
-
+}
+q6();
+function q7 (){
 var myGamesTypes = ['wars', 'action', 'sport', 'stratigy', 'team work'];
 for (var i = 0; i < 6; i++) {
     var guessAnswer = prompt('Can you guess my favorite games type as if they are action or family games?');
@@ -155,7 +162,8 @@ for (var i = 0; i < 6; i++) {
     }
 }
 
-
+}
+q7();
 
 alert('My best game types i like are: wars, action, sport, stratigy and team work');
 
