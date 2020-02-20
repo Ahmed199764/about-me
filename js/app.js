@@ -2,26 +2,21 @@
 var point = 0;
 function q1(){
 var name = prompt('what is your name ?', 'Insert your name please');
-console.log('Name: ', name);
 alert('Greeting! Welcome ' + name);
 alert('now lets start the guess game about me :)');
 
 var car = prompt('Do i like cars ?', 'please answer with yes or no');
-console.log('Car: ', car);
 switch (car.toLowerCase()) {
     case 'yes':
     case 'y':
-        console.log('your answer is true, i like cars');
         alert('nice one ! your answer is true');
         point++;
         break;
     case 'no':
     case 'n':
-        console.log('your answer is false , i like cars');
         alert('sorry , good luck next time');
         break;
     default:
-        console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
 }
 }
@@ -29,85 +24,69 @@ q1();
 
 function q2() {
 var Country = prompt('Iam From jordan ?', 'please answer with yes or no');
-console.log('Country: ', Country);
 switch (Country.toLowerCase()) {
     case 'yes':
     case 'y':
-        console.log('your answer is true , iam from jordan');
         alert('nice one ! your answer is true');
         point++;
         break;
     case 'no':
     case 'no':
-        console.log('false');
         alert('your answer is wrong, iam from jordan');
         break;
     default:
-        console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
 }
 }
 q2();
 function q3(){
 var age = prompt('iam 20 year old ?', 'please answer with yes or no');
-console.log('age: ', age);
 switch (age.toLowerCase()) {
     case 'yes':
     case 'y' :
-        console.log('yours answer is false, iam 22 year old');
         alert('sorry... Good luck next time');
         break;
     case 'no':
     case 'n' :
-        console.log('your answer is true,iam 22 year old');
         alert('nice one ! your answer is true');
         point++;
         break;
     default:
-        console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
 } }
 q3();
 
 function q4 (){
 var food = prompt('Do i like food ?', 'please answer with yes or no');
-console.log('food: ', food);
 switch (food.toLowerCase()) {
     case 'yes':
     case 'y' :
-        console.log('your answer is true , i like food');
         alert('nice one ! your answer is true');
         point++;
         break;
     case 'no':
     case 'n' :
-        console.log('false');
         alert('your answer is false , i like food');
         break;
     default:
-        console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
 } }
 q4();
 
 function q5(){
 var color = prompt('black is my fav color ?', 'please answer with yes or no');
-console.log('color: ', color);
 switch (color.toLowerCase()) {
     case 'yes':
     case 'y' :
-        console.log('false');
         alert('your answer is wrong , my fav color is white');
         break;
     case 'no':
     case 'n' :
-        console.log('your answer is true');
         alert('nice one ! your answer is true , cuz my fav color is white ');
         point++;
         break;
 
     default:
-        console.log('please answer with yes or not');
         alert('please answer with yes or no next time');
 } }
 q5();
@@ -137,7 +116,6 @@ if (number === 10) {
     alert('nice one ! this is my number');
     point++;
     counter = 5;
-    console.log(number);
 }
 
 }
@@ -153,7 +131,6 @@ for (var i = 0; i < 6; i++) {
             alert('That was one of the right answers , thank you ');
             point++;
             i = 6;
-            console.log(myGamesTypes);
             break;
         }
     }

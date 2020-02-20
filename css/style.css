@@ -55,3 +55,29 @@ body{
     text-align: center;
 }
 
+.list :hover {
+     text-decoration: underline;
+     font-family: cursive;
+     background-color: goldenrod;
+}
+
+.list1 :hover {
+    text-decoration: underline;
+    font-family: cursive;
+    background-color: goldenrod;
+}
+
+.para1:hover{
+    text-decoration: underline;
+    font-family: cursive;
+    background-color: goldenrod;
+    font-size: 20px;
+    width: 1000px;
+}
+
+#title:hover{
+    text-decoration: underline;
+    font-family: cursive;
+    background-color: goldenrod;
+    width: 250px;
+}
