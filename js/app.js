@@ -31,7 +31,7 @@ switch (Country.toLowerCase()) {
         point++;
         break;
     case 'no':
-    case 'no':
+    case 'n':
         alert('your answer is wrong, iam from jordan');
         break;
     default:
